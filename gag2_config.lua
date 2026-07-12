@@ -1,6 +1,6 @@
 -- GAG2 Public Config
 getgenv().GAG2 = {
-    Fps = 10,
+    Fps = 5,
     AutoBuySeed = true,
     BuyGearShop = {
         "Common Sprinkler", "Uncommon Sprinkler","Common Watering Can", "Rare Sprinkler","Super Sprinkler","Super Watering Can","Legendary Sprinkler",
@@ -42,8 +42,8 @@ getgenv().GAG2 = {
     CollectSeedPacks = true,
     COLLECT_PLANT_IF_MUTATED = {"Sunflower", "Venus Fly Trap", "Fire Fern", "Mushroom", "Rocket Pop",},
     SellFruitMultiplier = {
-        ["Mushroom"] = 1.19,
-        ["Rocket Pop"] = 1.19,
+        ["Mushroom"] = 1,
+        ["Rocket Pop"] = 1,
     },
     BuyAuction = {
         ["Common Seed Pack"] = 25000,
