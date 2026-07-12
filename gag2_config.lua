@@ -15,7 +15,7 @@ getgenv().GAG2 = {
     },
     DestroyPlants = {
         "Carrot", "Strawberry", "Blueberry", "Tulip", "Tomato", "Apple","Corn",
-        "Cactus", "Pineapple", "Green Bean", "Banana",
+        "Cactus", "Green Bean", "Banana",
     },
     BuyPets = {
         ["Monkey"] = math.huge,
