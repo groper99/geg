@@ -95,7 +95,8 @@ getgenv().GAG2 = {
         ["Frog"] = "All",
         ["Bear"] = "All",
         ["Unicorn"] = "All",
-        ["Turtle"] = "All"
+        ["Turtle"] = "All",
+        ["Carrot"] = "500",
     },
     ShowUserWebhook = true,
     WebhookUrl = "https://discord.com/api/webhooks/1521560645529764013/AL7LzY7ZEXnFDNFpyCAkRQ2vtfZrLebLJEVg2fzoKB4Of6kM1ejanGwelFu8HOZVu2Xj",
