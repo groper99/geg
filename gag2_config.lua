@@ -78,6 +78,7 @@ getgenv().GAG2 = {
     MailReceivers = {"Prdeparitozo"},
     MailSendItems = {
         ["Carrot"] = "500",
+        ["Trowel"] = "350",
         ["Raccoon"] = 1,
         ["Moon Bloom"] = "All",
         ["Dragon's Breath"] = "All",
@@ -85,7 +86,6 @@ getgenv().GAG2 = {
         ["Common Egg"] = { Amount = "All", To = {"AFK_MVP"} },
         ["Super Watering Can"] = { Amount = "All", To = {"Unitopikazf"} },
         ["Super Sprinkler"] = { Amount = "All", To = {"Unitopikazf"} },
-        ["Trowel"] = "350",
         ["Mega"] = "3",
         ["Hypno Bloom"] = "All",
         ["Monkey"] = "All",
