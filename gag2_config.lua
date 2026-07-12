@@ -56,6 +56,7 @@ getgenv().GAG2 = {
         ["Moon Bloom"] = 80000000,
         ["Hypno Bloom"] = 100000000,
         ["Dragon's Breath"] = 100000000,
+        ["Star Fruit"] = 100000000,
         ["Super Watering Can"] = 2000000,
         ["Super Sprinkler"] = 4000000,
     },
