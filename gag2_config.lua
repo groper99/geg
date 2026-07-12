@@ -81,6 +81,7 @@ getgenv().GAG2 = {
         ["Carrot"] = "5000",
         ["Trowel"] = "999",
         ["Raccoon"] = 1,
+        ["Firefly"] = 1,
         ["Moon Bloom"] = "All",
         ["Dragon's Breath"] = "All",
         ["Rainbow"] = "3",
