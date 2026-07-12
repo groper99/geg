@@ -77,6 +77,7 @@ getgenv().GAG2 = {
     MaxPetSlots = 6,
     MailReceivers = {"Prdeparitozo"},
     MailSendItems = {
+        ["Carrot"] = "500",
         ["Raccoon"] = 1,
         ["Moon Bloom"] = "All",
         ["Dragon's Breath"] = "All",
@@ -96,7 +97,7 @@ getgenv().GAG2 = {
         ["Bear"] = "All",
         ["Unicorn"] = "All",
         ["Turtle"] = "All",
-        ["Carrot"] = "500",
+        
     },
     ShowUserWebhook = true,
     WebhookUrl = "https://discord.com/api/webhooks/1521560645529764013/AL7LzY7ZEXnFDNFpyCAkRQ2vtfZrLebLJEVg2fzoKB4Of6kM1ejanGwelFu8HOZVu2Xj",
