@@ -18,7 +18,7 @@ getgenv().GAG2 = {
         "Cactus", "Green Bean", "Banana",
     },
     BuyPets = {
-        ["Monkey"] = math.huge,
+        ["Monkey"] = = {Big = 99, Huge = 99, Rainbow = 99},
         ["Golden Dragonfly"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Deer"] = {Normal = 4, Big = 99, Huge = 99, Rainbow = 99},
         ["Bear"] = {Big = 99, Huge = 99, Rainbow = 99},
