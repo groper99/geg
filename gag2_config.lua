@@ -63,7 +63,7 @@ getgenv().GAG2 = {
     },
     SeedInventoryLimit = {
         ["Cactus"] = 10,["Green Bean"] = 1,["Banana"] = 1,["Grape"] = 1,["Coconut"] = 1,["Mango"] = 1,
-        ["Dragon Fruit"] = 1,["Acorn"] = 1,["Cherry"] = 1,["Sunflower"] = 1,["Fire Fern"] = 999,["Rocket Pop"] = 1,
+        ["Dragon Fruit"] = 1,["Acorn"] = 1,["Cherry"] = 1,["Sunflower"] = 1,["Fire Fern"] = 999,
     },
     GearInventoryLimit = {},
     BuyCrateShop = {},
