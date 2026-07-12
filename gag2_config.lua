@@ -43,7 +43,7 @@ getgenv().GAG2 = {
     COLLECT_PLANT_IF_MUTATED = {"Sunflower", "Venus Fly Trap", "Fire Fern", "Mushroom", "Rocket Pop",},
     SellFruitMultiplier = {
         ["Mushroom"] = 0.86,
-        ["Rocket Pop"] = 0.91,
+        ["Rocket Pop"] = 0.86,
     },
     BuyAuction = {
         ["Common Seed Pack"] = 25000,
