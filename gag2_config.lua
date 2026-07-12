@@ -84,6 +84,8 @@ getgenv().GAG2 = {
         ["Raccoon"] = 1,
         ["Firefly"] = 1,
         ["Moon Bloom"] = "All",
+         ["Sun Bloom"] = "All",
+         ["Star Fruit"] = "All",
         ["Dragon's Breath"] = "All",
         ["Rainbow"] = "3",
         ["Common Egg"] = { Amount = "All", To = {"AFK_MVP"} },
