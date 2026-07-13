@@ -1,10 +1,10 @@
--- === GAG2 AutoHop + Remote Control (проверка каждые 30 сек) ===
+-- === GAG2 AutoHop (только публичные серверы) ===
 if not game:IsLoaded() then game.Loaded:Wait() end
 
 local ConfigURL = "https://raw.githubusercontent.com/groper99/geg/refs/heads/main/gag2_autohop.txt"
 
 getgenv().AutoHopConfig = {
-    Interval = 2,                    -- минут (по умолчанию)
+    Interval = 12,                    -- минут (по умолчанию)
     PlaceId = 97598239454123,
     MaxPlayersOnNewServer = 40,
     Enabled = true,
@@ -12,69 +12,69 @@ getgenv().AutoHopConfig = {
 
 local config = getgenv().AutoHopConfig
 local lastInterval = 0
-local lastCheck = 0
 
-print("🚀 GAG2 AutoHop Listener запущен (проверка каждые 30 секунд)")
+print("🚀 GAG2 AutoHop (только Public сервера) запущен")
 
 local function ServerHop()
-    print("🔄 AutoHop: поиск нового сервера...")
+    print("🔄 AutoHop: поиск публичного сервера...")
     
     pcall(function()
-        local servers = game.HttpService:JSONDecode(game:HttpGet(
-            "https://games.roblox.com/v1/games/" .. config.PlaceId .. "/servers/Public?sort=Desc&limit=100"
-        ))
+        -- Явно запрашиваем только публичные серверы
+        local url = "https://games.roblox.com/v1/games/" .. config.PlaceId .. "/servers/Public?sort=Desc&limit=100"
+        local servers = game.HttpService:JSONDecode(game:HttpGet(url))
 
         local valid = {}
         for _, s in ipairs(servers.data) do
-            if s.playing and s.playing <= config.MaxPlayersOnNewServer and s.id ~= game.JobId then
+            if s.playing 
+                and s.playing > 0 
+                and s.playing <= config.MaxPlayersOnNewServer 
+                and s.id ~= game.JobId then
+                
                 table.insert(valid, s)
             end
         end
 
         if #valid > 0 then
             local target = valid[math.random(#valid)]
-            print("✅ AutoHop → сервер с " .. target.playing .. " игроками")
+            print("✅ Переход на публичный сервер | Игроков: " .. target.playing)
             game:GetService("TeleportService"):TeleportToPlaceInstance(config.PlaceId, target.id)
         else
-            print("⚠️ AutoHop → Rejoin")
+            print("⚠️ Нет подходящих публичных серверов → Rejoin")
             game:GetService("TeleportService"):Teleport(config.PlaceId)
         end
     end)
 end
 
--- Главный listener
+-- Listener + AutoHop
 task.spawn(function()
     while true do
+        -- Обновляем настройки с GitHub
         pcall(function()
-            local raw = game:HttpGet(ConfigURL, true)  -- true = bypass cache
+            local raw = game:HttpGet(ConfigURL, true)
             local value = tonumber(raw:match("^%s*(.-)%s*$"))
-
+            
             if value then
                 if value == 0 then
                     if config.Enabled then
                         config.Enabled = false
-                        print("⛔ AutoHop отключён (0 в файле)")
+                        print("⛔ AutoHop отключён")
                     end
-                else
-                    if not config.Enabled or value ~= lastInterval then
-                        config.Interval = value
-                        lastInterval = value
-                        config.Enabled = true
-                        print("🔄 AutoHop интервал изменён на: " .. value .. " минут")
-                    end
+                elseif value ~= lastInterval then
+                    config.Interval = value
+                    lastInterval = value
+                    config.Enabled = true
+                    print("🔄 Интервал изменён: " .. value .. " минут")
                 end
             end
         end)
 
-        -- Выполняем hop, если включено
+        -- Выполняем hop если включено
         if config.Enabled then
             ServerHop()
         end
 
-        task.wait(30)  -- проверка каждые 30 секунд
+        task.wait(30) -- проверка каждые 30 секунд
     end
 end)
 
-print("✅ Listener активен!")
-print("Управление: меняй число в gag2_autohop.txt (в минутах)")
-print("0 = отключить AutoHop")
+print("✅ AutoHop готов. Управляй через gag2_autohop.txt")
