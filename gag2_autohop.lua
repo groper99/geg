@@ -4,7 +4,7 @@ if not game:IsLoaded() then game.Loaded:Wait() end
 local ConfigURL = "https://raw.githubusercontent.com/groper99/geg/refs/heads/main/gag2_autohop.txt"
 
 getgenv().AutoHopConfig = {
-    Interval = 12,
+    Interval = 1,
     PlaceId = 97598239454123,
     MaxPlayers = 5,            -- ← Изменено по твоей просьбе
     MinPlayers = 1,
