@@ -1,6 +1,6 @@
 -- GAG2 Public Config
 getgenv().GAG2 = {
-    Fps = 10,
+    Fps = 13,
     AutoBuySeed = true,
     BuyGearShop = {
         "Common Sprinkler", "Uncommon Sprinkler","Common Watering Can", "Rare Sprinkler","Super Sprinkler","Super Watering Can","Legendary Sprinkler",
