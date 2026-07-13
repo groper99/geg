@@ -1,21 +1,37 @@
--- === GAG2 AutoHop — Только очень пустые серверы (max 5 игроков) ===
-if not game:IsLoaded() then game.Loaded:Wait() end
+-- === GAG2 AutoHop — Только пустые серверы (max 5) + Полная загрузка ===
+if not game:IsLoaded() then 
+    game.Loaded:Wait() 
+end
+
+-- Дополнительная проверка полной загрузки игры
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+-- Ждём, пока персонаж и основные сервисы загрузятся
+if not LocalPlayer.Character then
+    LocalPlayer.CharacterAdded:Wait()
+end
+
+-- Дополнительное ожидание (на всякий случай)
+task.wait(3)
+
+print("✅ Игра полностью загружена. Запускаем AutoHop...")
 
 local ConfigURL = "https://raw.githubusercontent.com/groper99/geg/refs/heads/main/gag2_autohop.txt"
 
 getgenv().AutoHopConfig = {
-    Interval = 1,
+    Interval = 12,
     PlaceId = 97598239454123,
-    MaxPlayers = 5,            -- ← Изменено по твоей просьбе
+    MaxPlayers = 5,
     MinPlayers = 1,
     Enabled = true,
-    MaxRetries = 8,            -- увеличил попытки
+    MaxRetries = 8,
 }
 
 local config = getgenv().AutoHopConfig
 local lastInterval = 0
 
-print("🚀 GAG2 AutoHop — поиск серверов с ≤5 игроками")
+print("🚀 GAG2 AutoHop запущен (приоритет серверам с ≤5 игроками)")
 
 local function FindAndJoinServer()
     local attempt = 0
@@ -40,11 +56,10 @@ local function FindAndJoinServer()
                 end
             end
 
-            -- Сортируем от самого пустого
             table.sort(valid, function(a, b) return a.playing < b.playing end)
 
             if #valid > 0 then
-                local target = valid[1]   -- самый пустой сервер
+                local target = valid[1]
                 print("✅ Подключаемся | Игроков: " .. target.playing)
                 game:GetService("TeleportService"):TeleportToPlaceInstance(config.PlaceId, target.id)
                 return true
@@ -52,11 +67,10 @@ local function FindAndJoinServer()
         end)
 
         if success then return true end
-        
-        task.wait(2.5) -- пауза между попытками
+        task.wait(2.5)
     end
 
-    print("⚠️ Не найдено серверов с ≤5 игроками → Rejoin")
+    print("⚠️ Не найдено пустых серверов → Rejoin")
     task.wait(3)
     game:GetService("TeleportService"):Teleport(config.PlaceId)
 end
@@ -88,4 +102,4 @@ task.spawn(function()
     end
 end)
 
-print("✅ AutoHop запущен | MaxPlayers = 5")
+print("✅ AutoHop полностью готов к работе")
