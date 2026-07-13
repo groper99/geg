@@ -20,7 +20,7 @@ print("✅ Игра полностью загружена. Запускаем Au
 local ConfigURL = "https://raw.githubusercontent.com/groper99/geg/refs/heads/main/gag2_autohop.txt"
 
 getgenv().AutoHopConfig = {
-    Interval = 12,
+    Interval = 1,
     PlaceId = 97598239454123,
     MaxPlayers = 5,
     MinPlayers = 1,
