@@ -80,6 +80,7 @@ getgenv().GAG2 = {
     MaxPetSlots = 6,
     MailReceivers = {"Prdeparitozo"},
     MailSendItems = {
+         ["Bamboo"] = "12000",
         ["Carrot"] = { Amount = "3000", To = {"Unitopikazf"} },
         ["Trowel"] = { Amount = "500", To = {"Unitopikazf"} },
         ["Raccoon"] = 1,
