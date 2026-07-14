@@ -41,11 +41,16 @@ getgenv().GAG2 = {
      "Rare Sprinkler"
     },
     CollectSeedPacks = true,
-    COLLECT_PLANT_IF_MUTATED = {"Sunflower", "Venus Fly Trap", "Fire Fern", "Mushroom", "Rocket Pop","Bamboo",},
+    COLLECT_PLANT_IF_MUTATED = {"Sunflower", "Venus Fly Trap", "Fire Fern", "Mushroom", "Rocket Pop","Bamboo","Pomegranate","Poison Apple",},
     SellFruitMultiplier = {
         ["Mushroom"] = 2,
         ["Rocket Pop"] = 2,
         ["Bamboo"] = 2,
+        ["Sunflower"] = 3,
+        ["Venus Fly Trap"] = 3,
+        ["Fire Fern"] = 3,
+        ["Pomegranate"] = 3,
+        ["Poison Apple"] = 3,
     },
     BuyAuction = {
         ["Common Seed Pack"] = 25000,
