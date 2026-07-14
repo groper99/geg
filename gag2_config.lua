@@ -10,7 +10,7 @@ getgenv().GAG2 = {
         ["Strawberry"] = 1, ["Blueberry"] = 1,
         ["Tomato"] = 1, ["Apple"] = 10, ["Corn"] = 1,
         ["Cactus"] = 1, ["Pineapple"] = 30, ["Green Bean"] = 1,
-        ["Banana"] = 20, ["Grape"] = 40, ["Coconut"] = 40, ["Mango"] = 70,["Rocket Pop"] = 200,
+        ["Banana"] = 20, ["Grape"] = 40, ["Coconut"] = 40, ["Mango"] = 70,["Rocket Pop"] = 200, ["Bamboo"] = 200,
         ["Dragon Fruit"] = 70, ["Acorn"] = 70, ["Cherry"] = 70, ["Sunflower"] = 10, ["Fire Fern"] = 10, ["Mushroom"] = 200,
     },
     DestroyPlants = {
@@ -41,10 +41,11 @@ getgenv().GAG2 = {
      "Rare Sprinkler"
     },
     CollectSeedPacks = true,
-    COLLECT_PLANT_IF_MUTATED = {"Sunflower", "Venus Fly Trap", "Fire Fern", "Mushroom", "Rocket Pop",},
+    COLLECT_PLANT_IF_MUTATED = {"Sunflower", "Venus Fly Trap", "Fire Fern", "Mushroom", "Rocket Pop","Bamboo",},
     SellFruitMultiplier = {
         ["Mushroom"] = 2,
         ["Rocket Pop"] = 2,
+        ["Bamboo"] = 2,
     },
     BuyAuction = {
         ["Common Seed Pack"] = 25000,
@@ -80,7 +81,6 @@ getgenv().GAG2 = {
     MaxPetSlots = 6,
     MailReceivers = {"Prdeparitozo"},
     MailSendItems = {
-         ["Bamboo"] = "12000",
         ["Carrot"] = { Amount = "3000", To = {"Unitopikazf"} },
         ["Trowel"] = { Amount = "500", To = {"Unitopikazf"} },
         ["Raccoon"] = 1,
