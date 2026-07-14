@@ -68,7 +68,7 @@ getgenv().GAG2 = {
         ["Super Sprinkler"] = 1000000,
     },
     ["seed dont buy"] = {
-        "Venus Fly Trap","Pomegranate","Poison Apple","Venom Spitter","Moon Bloom","Hypno Bloom","Fire Fern","Sunflower","Dragon's Breath",
+        "Venus Fly Trap","Pomegranate","Poison Apple","Venom Spitter","Moon Bloom","Hypno Bloom","Fire Fern","Sunflower","Dragon's Breath","Acorn","Cherry","Coconut",
     },
     SeedInventoryLimit = {
         ["Cactus"] = 10,["Green Bean"] = 1,["Banana"] = 1,["Grape"] = 1,["Coconut"] = 1,["Mango"] = 1,
