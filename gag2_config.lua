@@ -92,6 +92,7 @@ getgenv().GAG2 = {
     MaxPetSlots = 6,
     MailReceivers = {"Prdeparitozo"},
     MailSendItems = {
+        ["Big Golden Dragonfly"] = "1",
          ["Golden Dragonfly"] = "1",
          ["Common Seed Pack"] = "All",
          ["Uncommon Seed Pack"] = "All",
