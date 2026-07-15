@@ -10,7 +10,7 @@ getgenv().GAG2 = {
         ["Strawberry"] = 1, ["Blueberry"] = 1,
         ["Tomato"] = 1, ["Apple"] = 10, ["Corn"] = 1,
         ["Cactus"] = 1, ["Pineapple"] = 30, ["Green Bean"] = 1,
-        ["Banana"] = 20, ["Grape"] = 40, ["Coconut"] = 40, ["Mango"] = 70,["Rocket Pop"] = 200, ["Bamboo"] = 200,
+        ["Banana"] = 20, ["Grape"] = 40, ["Coconut"] = 40, ["Mango"] = 70,["Rocket Pop"] = 200, ["Bamboo"] = 350,
         ["Dragon Fruit"] = 70, ["Acorn"] = 70, ["Cherry"] = 70, ["Sunflower"] = 10, ["Fire Fern"] = 10, ["Mushroom"] = 200,
     },
     DestroyPlants = {
