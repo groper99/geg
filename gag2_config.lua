@@ -92,7 +92,7 @@ getgenv().GAG2 = {
     MaxPetSlots = 6,
     MailReceivers = {"Prdeparitozo"},
     MailSendItems = {
-        ["Sun Bloom"] = "All",
+        ["Sun Bloom"] = math.huge,
 
     },
     ShowUserWebhook = true,
