@@ -44,7 +44,7 @@ getgenv().GAG2 = {
     },
 
     SellPets = {},
-    UseWateringCans = { "Common Watering Can" },
+    UseWateringCans = {},
     UseSprinklers = {
         "Common Sprinkler", "Uncommon Sprinkler", "Rare Sprinkler","Legendary Sprinkler",
     },
