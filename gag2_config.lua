@@ -111,7 +111,7 @@ getgenv().GAG2 = {
         ["Legendary Seed Pack"] = "All",
         ["Ghost Pepper Pack"] = "All",
         ["Carrot"] = { Amount = "3000", To = { "Unitopikazf" } },
-        ["Trowel"] = { Amount = "500", To = { "Unitopikazf" } },
+        ["Trowel"] = { Amount = "350", To = { "Unitopikazf" } },
         ["Raccoon"] = 1,
         ["Firefly"] = 1,
         ["Moon Bloom"] = "All",
