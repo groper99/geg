@@ -13,7 +13,7 @@ getgenv().GAG2 = {
         ["Tomato"] = 1, ["Apple"] = 1, ["Corn"] = 1,
         ["Cactus"] = 1, ["Pineapple"] = 25, ["Green Bean"] = 1,
         ["Banana"] = 15, ["Grape"] = 25, ["Coconut"] = 25, ["Mango"] = 25,
-        ["Rocket Pop"] = 200, ["Bamboo"] = 350,
+        ["Rocket Pop"] = 200, ["Bamboo"] = 100,
         ["Dragon Fruit"] = 25, ["Acorn"] = 25, ["Cherry"] = 25,
         ["Sunflower"] = 10, ["Fire Fern"] = 10, ["Mushroom"] = 200,
     },
@@ -93,8 +93,8 @@ getgenv().GAG2 = {
     OpenSeedPacks = {},
     OpenEggs = {},
 
-    DestroyUntilMinPlants = 501,
-    LimitPlants = 501,
+    DestroyUntilMinPlants = 400,
+    LimitPlants = 400,
     PlantOverLimit = { "Bamboo", "Mushroom", "Rocket Pop" },
 
     ExpandLimit = 3,
