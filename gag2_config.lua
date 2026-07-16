@@ -38,7 +38,7 @@ getgenv().GAG2 = {
     SellPets = {},
     UseWateringCans = {"Common Watering Can"},
     UseSprinklers = {
-     "Uncommon Sprinkler"
+     "Uncommon Sprinkler",
     },
     CollectSeedPacks = true,
     COLLECT_PLANT_IF_MUTATED = {"Sunflower", "Venus Fly Trap", "Fire Fern", "Mushroom", "Rocket Pop", "Bamboo", "Pomegranate", "Poison Apple", "Acorn", "Coconut", "Dragon Fruit", "Mango", "Banana", "Grape", "Pineapple"}
@@ -79,8 +79,8 @@ getgenv().GAG2 = {
     CrateInventoryLimit = {},
     OpenSeedPacks = {},
     OpenEggs = {},
-    DestroyUntilMinPlants = 500,
-    LimitPlants = 500,
+    DestroyUntilMinPlants = 501,
+    LimitPlants = 501,
     PlantOverLimit = {"Bamboo","Mushroom","Rocket Pop",},
     ExpandLimit = 3,
     MaxPetSlots = 6,
