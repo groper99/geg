@@ -51,12 +51,6 @@ getgenv().GAG2 = {
         ["Fire Fern"] = 3,
         ["Pomegranate"] = 3,
         ["Poison Apple"] = 3,
-        ["Acorn"] = 0.83,
-        ["Coconut"] = 0.83,
-        ["Dragon Fruit"] = 0.83,
-        ["Banana"] = 0.83,
-        ["Grape"] = 0.83,
-        ["Pineapple"] = 0.83,
     },
     BuyAuction = {
         ["Common Seed Pack"] = 25000,
