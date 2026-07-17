@@ -53,13 +53,9 @@ getgenv().GAG2 = {
         COLLECT_PLANT_IF_MUTATED = {"Sunflower", "Venus Fly Trap", "Fire Fern", "Mushroom", "Rocket Pop", "Bamboo", "Pomegranate", "Poison Apple", "Acorn", "Coconut", "Dragon Fruit", "Mango", "Banana", "Grape", "Pineapple"},
     SellFruitMultiplier = {
    ["Mushroom"] = 2,
-        ["Rocket Pop"] = 2,
+        ["Mushroom"] = 3,
         ["Bamboo"] = 1.15,
-        ["Sunflower"] = 3,
-        ["Venus Fly Trap"] = 3,
-        ["Fire Fern"] = 3,
-        ["Pomegranate"] = 3,
-        ["Poison Apple"] = 3,
+
     },
 
 
