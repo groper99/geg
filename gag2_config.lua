@@ -62,10 +62,6 @@ getgenv().GAG2 = {
         ["Poison Apple"] = 3,
     },
 
-    SellFruitMultiplier = {
-        ["Mushroom"] = 2,
-        ["Bamboo"] = 1.15   
-    },
 
     BuyAuction = {
         ["Common Seed Pack"] = 25000,
