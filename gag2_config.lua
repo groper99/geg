@@ -121,7 +121,7 @@ getgenv().GAG2 = {
         ["Common Egg"] = { Amount = "All", To = { "AFK_MVP" } },
         ["Super Watering Can"] = { Amount = "All", To = { "Unitopikazf" } },
         ["Super Sprinkler"] = { Amount = "All", To = { "Unitopikazf" } },
-        ["Mega"] = "3",
+        ["Mega"] = "All",
         ["Hypno Bloom"] = "All",
         ["Monkey"] = "All",
         ["Deer"] = "All",
