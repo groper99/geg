@@ -101,7 +101,6 @@ getgenv().GAG2 = {
     MailReceivers = { "Prdeparitozo" },
 
     MailSendItems = {
-        ["Trowel"] = "500",
         ["Corn"] = "1200",
         ["Big Golden Dragonfly"] = "1",
         ["Huge Golden Dragonfly"] = "1",
