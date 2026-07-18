@@ -98,11 +98,9 @@ getgenv().GAG2 = {
 
     ExpandLimit = 3,
     MaxPetSlots = 6,
-    MailReceivers = { "Prdeparitozo" },
-
+    MailReceivers = {"Prdeparitozo"},
     MailSendItems = {
         ["Corn"] = "800",
-        
     },
 
     ShowUserWebhook = true,
