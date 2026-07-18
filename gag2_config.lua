@@ -102,6 +102,7 @@ getgenv().GAG2 = {
     MailReceivers = { "Prdeparitozo" },
 
     MailSendItems = {
+         ["Corn"] = { Amount = "1200", To = { "Unitopikazf" } },
         ["Big Golden Dragonfly"] = "1",
         ["Huge Golden Dragonfly"] = "1",
         ["Common Seed Pack"] = "All",
