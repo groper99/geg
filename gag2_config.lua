@@ -127,7 +127,6 @@ getgenv().GAG2 = {
         ["Frog"] = "All",
         ["Bear"] = "All",
         ["Unicorn"] = "All",
-        ["Turtle"] = "All",
     },
 
     ShowUserWebhook = true,
