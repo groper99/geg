@@ -30,7 +30,7 @@ getgenv().GAG2 = {
         ["Bald Eagle"] = { Big = 99, Huge = 99, Rainbow = 99 },
         ["Butterfly"] = math.huge,
         ["Frog"] = { Huge = 99, Rainbow = 99 },
-        ["Turtle"] = { Big = 99, Huge = 99, Rainbow = 99 },
+        ["Turtle"] = { Normall = 6, Big = 99, Huge = 99, Rainbow = 99 },
         ["Rabbit"] = { Huge = 99 },
         ["Firefly"] = { Big = 99, Huge = 99, Rainbow = 99 },
         ["Unicorn"] = { Big = 99, Huge = 99, Rainbow = 99 },
@@ -38,8 +38,9 @@ getgenv().GAG2 = {
     },
 
     EquipPets = {
-        ["Unicorn"] = { Priority = 1 },
-        ["Deer"] = { Priority = 2 },
+        ["Turtle"] = { Priority = 1 },
+        ["Unicorn"] = { Priority = 2 },
+        ["Deer"] = { Priority = 3 },
     },
 
     SellPets = {},
@@ -49,10 +50,11 @@ getgenv().GAG2 = {
     },
     CollectSeedPacks = true,
 
-        COLLECT_PLANT_IF_MUTATED = {},
+        COLLECT_PLANT_IF_MUTATED = {"Sunflower", "Venus Fly Trap", "Fire Fern", "Mushroom", "Rocket Pop", "Bamboo", "Pomegranate", "Mango"},
     SellFruitMultiplier = {
         ["Mushroom"] = 3,
-        ["Bamboo"] = 1.15,
+        ["Bamboo"] = 2,
+        ["Mango"] = 2,
 
     },
 
