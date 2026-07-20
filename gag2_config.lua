@@ -12,7 +12,7 @@ getgenv().GAG2 = {
         ["Strawberry"] = 1, ["Blueberry"] = 1,
         ["Tomato"] = 1, ["Apple"] = 1, ["Corn"] = 1,
         ["Cactus"] = 1, ["Pineapple"] = 25, ["Green Bean"] = 1,
-        ["Banana"] = 15, ["Grape"] = 25, ["Coconut"] = 25, ["Mango"] = 25,
+        ["Banana"] = 15, ["Grape"] = 25, ["Coconut"] = 25, ["Mango"] = 45,
         ["Rocket Pop"] = 200, ["Dragon Fruit"] = 25, ["Acorn"] = 25, ["Cherry"] = 25,
         ["Sunflower"] = 10, ["Fire Fern"] = 10, ["Mushroom"] = 200,
     },
@@ -81,7 +81,7 @@ getgenv().GAG2 = {
 
     SeedInventoryLimit = {
         ["Cactus"] = 10, ["Green Bean"] = 1, ["Banana"] = 1,
-        ["Grape"] = 1, ["Coconut"] = 1, ["Mango"] = 1,
+        ["Grape"] = 1, ["Coconut"] = 1, ["Mango"] = 999,
         ["Dragon Fruit"] = 1, ["Acorn"] = 1, ["Cherry"] = 1,
         ["Sunflower"] = 1, ["Fire Fern"] = 999,
     },
