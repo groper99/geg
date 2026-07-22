@@ -54,7 +54,7 @@ getgenv().GAG2 = {
     SellFruitMultiplier = {
         ["Mushroom"] = 3,
         ["Bamboo"] = 0.83,
-        ["Mango"] = 1,
+        ["Mango"] = 0.83,
 
     },
 
