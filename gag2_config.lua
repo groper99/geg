@@ -30,7 +30,7 @@ getgenv().GAG2 = {
         ["Bald Eagle"] = { Big = 99, Huge = 99, Rainbow = 99 },
         ["Butterfly"] = math.huge,
         ["Frog"] = { Huge = 99, Rainbow = 99 },
-        ["Turtle"] = { Normall = 6, Big = 99, Huge = 99, Rainbow = 99 },
+        ["Turtle"] = "6",
         ["Rabbit"] = { Huge = 99 },
         ["Firefly"] = { Big = 99, Huge = 99, Rainbow = 99 },
         ["Unicorn"] = { Big = 99, Huge = 99, Rainbow = 99 },
