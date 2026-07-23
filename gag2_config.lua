@@ -135,7 +135,6 @@ getgenv().GAG2 = {
         ["Mega"] = "3",
         ["Hypno Bloom"] = "All",
         ["Monkey"] = "All",
-        ["Deer"] = "All",
         ["Bald Eagle"] = "All",
         ["Butterfly"] = "All",
         ["Frog"] = "All",
