@@ -9,7 +9,7 @@ getgenv().GAG2 = {
     BuyGearMinSheckles = 500000,
 
     PlantSeeds = {
-    ["Cherry"] = 3, ["Fire Fern"] = 3, ["Sunflower"] = 3, ["Venus Fly Trap"] = 3, ["Pomegranate"] = 3, ["Poison Apple"] = 3, ["Venom Spitter"] = 3, ["Moon Bloom"] = 3, ["Hypno Bloom"] = 3, ["Mushroom"] = 100,
+    ["Cherry"] = 3, ["Fire Fern"] = 3, ["Sunflower"] = 3, ["Venus Fly Trap"] = 3, ["Pomegranate"] = 3, ["Poison Apple"] = 3, ["Venom Spitter"] = 3, ["Moon Bloom"] = 3, ["Hypno Bloom"] = 3,
     },
 
     DestroyPlants = {
