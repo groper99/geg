@@ -4,7 +4,7 @@ getgenv().GAG2 = {
     AutoBuySeed = true,
     BuyGearShop = {
         "Common Sprinkler", "Uncommon Sprinkler", "Common Watering Can",
-        "Super Sprinkler", "Super Watering Can", "Trowel", "Legendary Sprinkler",
+        "Super Sprinkler", "Super Watering Can", "Trowel", "Legendary Sprinkler", "Strawberry Sniper", 
     },
     BuyGearMinSheckles = 500000,
 
@@ -103,6 +103,7 @@ getgenv().GAG2 = {
     MaxPetSlots = 6,
     MailReceivers = {"Prdeparitozo"},
     MailSendItems = {
+         ["Strawberry Sniper"] = "All",
          ["Venus Fly Trap"] = { Amount = "10", To = { "1skladd" } },
         ["Cherry"] = { Amount = "8", To = { "Preparitozor" } },
          ["Coconut"] = "20",
