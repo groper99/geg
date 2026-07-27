@@ -3,7 +3,7 @@ getgenv().GAG2 = {
     Fps = 8,
     AutoBuySeed = true,
     BuyGearShop = {
-        "Common Sprinkler", "Uncommon Sprinkler", "Common Watering Can", "Rare Sprinkler",
+        "Common Sprinkler", "Uncommon Sprinkler", "Common Watering Can", "Rare Sprinkler", "Flashbang",
         "Super Sprinkler", "Super Watering Can", "Trowel", "Legendary Sprinkler", "Strawberry Sniper", 
     },
     BuyGearMinSheckles = 500000,
