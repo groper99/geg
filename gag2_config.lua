@@ -105,6 +105,7 @@ getgenv().GAG2 = {
     MailSendItems = {
          ["Strawberry Sniper"] = "All",
          ["Venus Fly Trap"] = { Amount = "10", To = { "1skladd" } },
+         ["Pomegranate"] = { Amount = "8", To = { "1skladd" } },
         ["Cherry"] = { Amount = "8", To = { "Preparitozor" } },
          ["Coconut"] = "20",
         ["Acorn"] = "10",
