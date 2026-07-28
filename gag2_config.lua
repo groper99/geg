@@ -103,6 +103,7 @@ getgenv().GAG2 = {
     MaxPetSlots = 6,
     MailReceivers = {"Prdeparitozo"},
     MailSendItems = {
+         ["Legendary Sprinkler"] = { Amount = "All", To = { "Unitopikazf" } },
         ["Gnome"] = { Amount = "All", To = { "3skladd" } },
          ["Strawberry Sniper"] = "All",
          ["Venus Fly Trap"] = { Amount = "10", To = { "1skladd" } },
