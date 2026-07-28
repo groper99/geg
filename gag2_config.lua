@@ -103,6 +103,7 @@ getgenv().GAG2 = {
     MaxPetSlots = 6,
     MailReceivers = {"Prdeparitozo"},
     MailSendItems = {
+        ["Pomegranate"] = { Amount = "All", To = { "1skladd" } },
         ["Venus Fly Trap"] = { Amount = "All", To = { "1skladd" } },
         ["Poison Apple"] = { Amount = "All", To = { "1skladd" } },
         ["Moon Bloom"] = { Amount = "All", To = { "1skladd" } },
@@ -110,7 +111,6 @@ getgenv().GAG2 = {
          ["Legendary Sprinkler"] = { Amount = "20", To = { "Unitopikazf" } },
         ["Gnome"] = { Amount = "All", To = { "3skladd" } },
          ["Strawberry Sniper"] = "All",
-         ["Pomegranate"] = { Amount = "8", To = { "1skladd" } },
         ["Cherry"] = { Amount = "8", To = { "Preparitozor" } },
          ["Coconut"] = "20",
         ["Acorn"] = "10",
