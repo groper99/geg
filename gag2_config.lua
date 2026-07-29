@@ -109,7 +109,7 @@ getgenv().GAG2 = {
 	     ["Common Sprinkler"] = { Amount = "1000", To = { "Unitopikazf" } },
          ["Legendary Sprinkler"] = { Amount = "15", To = { "Unitopikazf" } },
 
-		   ["Sunflower"] = { Amount = "All", To = { "1skladd" } },
+		   ["Sunflower"] = { Amount = "5", To = { "1skladd" } },
         ["Pomegranate"] = { Amount = "5", To = { "1skladd" } },
         ["Venus Fly Trap"] = { Amount = "5", To = { "1skladd" } },
         ["Poison Apple"] = { Amount = "5", To = { "1skladd" } },
