@@ -114,6 +114,7 @@ getgenv().GAG2 = {
         ["Poison Apple"] = { Amount = "5", To = { "1skladd" } },
         ["Moon Bloom"] = { Amount = "All", To = { "1skladd" } },
         ["Venom Spitter"] = { Amount = "All", To = { "1skladd" } },
+		 ["Dragon Fruit"] = { Amount = "25", To = { "1skladd" } },
 		
         ["Gnome"] = { Amount = "All", To = { "3skladd" } },
          ["Strawberry Sniper"] = "All",
@@ -122,7 +123,7 @@ getgenv().GAG2 = {
         ["Acorn"] = "10",
         ["Fire Fern"] = "8",
         ["Mango"] = "50",
-        ["Dragon Fruit"] = "13",
+       
         ["Trowel"] = { Amount = "999", To = { "Preparitozor" } },
         ["Common Seed Pack"] = "3",
         ["Uncommon Seed Pack"] = "3",
