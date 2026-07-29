@@ -103,10 +103,10 @@ getgenv().GAG2 = {
     MaxPetSlots = 6,
     MailReceivers = {"Prdeparitozo"},
     MailSendItems = {
-                    ["Common Watering Can"] = { Amount = "9000", To = { "Unitopikazf" } },
-        ["Uncommon Sprinkler"] = { Amount = "1500", To = { "Unitopikazf" } },
-       ["Rare Sprinkler"] = { Amount = "120", To = { "Unitopikazf" } },
-	     ["Common Sprinkler"] = { Amount = "1000", To = { "Unitopikazf" } },
+                    ["Common Watering Can"] = { Amount = "7000", To = { "Unitopikazf" } },
+        ["Uncommon Sprinkler"] = { Amount = "1000", To = { "Unitopikazf" } },
+       ["Rare Sprinkler"] = { Amount = "80", To = { "Unitopikazf" } },
+	     ["Common Sprinkler"] = { Amount = "500", To = { "Unitopikazf" } },
          ["Legendary Sprinkler"] = { Amount = "15", To = { "Unitopikazf" } },
 
 		   ["Sunflower"] = { Amount = "5", To = { "1skladd" } },
