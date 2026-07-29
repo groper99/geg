@@ -122,7 +122,7 @@ getgenv().GAG2 = {
          ["Coconut"] = "20",
         ["Acorn"] = "10",
         ["Fire Fern"] = "8",
-        ["Mango"] = "50",
+        ["Mango"] = "30",
        
         ["Trowel"] = { Amount = "999", To = { "Preparitozor" } },
         ["Common Seed Pack"] = "3",
