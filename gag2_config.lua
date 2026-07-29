@@ -41,7 +41,6 @@ getgenv().GAG2 = {
     SellPets = {},
     UseWateringCans = {},
     UseSprinklers = {
-     "Unommon Sprinkler"
     },
     CollectSeedPacks = true,
 
