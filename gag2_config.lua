@@ -49,15 +49,16 @@ getgenv().GAG2 = {
         ["Mushroom"] = 3,
          ["Sunflower"] = 3,
          ["Venus Fly Trap"] = 3,
-         ["Fire Fern"] = 3,
+         ["Fire Fern"] = 2,
          ["Star Fruit"] = 4,
          ["Dragon's Breath"] = 4,
          ["Hypno Bloom"] = 4,
          ["Sun Bloom"] = 4,
          ["Moon Bloom"] = 4,
-		 ["Pomegranate"] = 4,
-         ["Poison Apple"] = 3,
+		 ["Pomegranate"] = 2,
+         ["Poison Apple"] = 2,
          ["Venom Spitter"] = 4,
+		
     },
 
 
