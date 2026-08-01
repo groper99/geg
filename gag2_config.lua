@@ -37,6 +37,8 @@ getgenv().GAG2 = {
 		["Hedgehog"] = math.huge,
 		["Fox"] = math.huge,
 		["Wolf"] = math.huge,
+		["Shadow Dragon"] = math.huge,
+		
 		
     },
 
