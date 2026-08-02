@@ -21,10 +21,10 @@ getgenv().GAG2 = {
     ["Maple Star Fruit"] = 0,
 },
     SeedInventoryLimit = {
-        ["Maple Carrot"] = 10,
+        ["Maple Carrot"] = 99999,
         ["Maple Strawberry"] = 10,
         ["Maple Blueberry"] = 10,
-        ["Maple Tulip"] = 10,
+        ["Maple Tulip"] = 999999,
         ["Maple Tomato"] = 10,
         ["Maple Apple"] = 10,
         ["Maple Corn"] = 10,
