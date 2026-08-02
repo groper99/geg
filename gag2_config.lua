@@ -86,8 +86,7 @@ getgenv().GAG2 = {
     SellPets = {
     },
     UseGear = {
-        "Common Watering Can",
-        "Common Sprinkler", "Uncommon Sprinkler", "Rare Sprinkler","Legendary Sprinkler",
+       
     },
     CollectSeedPacks = true,
     COLLECT_PLANT_IF_MUTATED = {"Mushroom", "Rocket Pop", "Cherry", "Sunflower", "Fire Fern", "Venus Fly Trap", "Pomegranate", "Poison Apple", "Venom Spitter", "Moon Bloom", "Hypno Bloom", "Dragon's Breath", "Sun Bloom", "Star Fruit"},
