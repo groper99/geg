@@ -111,7 +111,7 @@ getgenv().GAG2 = {
         "Common Egg",
     },
     LimitPlants = 150,
-    ExpandLimit = 3,
+    ExpandLimit = 2,
     MaxPetSlots = 6,
     MailReceivers = {""},
     MailSendItems = {
