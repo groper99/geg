@@ -118,7 +118,7 @@ getgenv().GAG2 = {
     OpenEggs = {
        
     },
-    LimitPlants = 150,
+    LimitPlants = 500,
     ExpandLimit = 2,
     MaxPetSlots = 6,
     MailReceivers = {""},
