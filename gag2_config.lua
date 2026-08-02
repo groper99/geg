@@ -108,7 +108,7 @@ getgenv().GAG2 = {
         --"Common Seed Pack", "Uncommon Seed Pack", "Rare Seed Pack",
     },
     OpenEggs = {
-        "Common Egg",
+       
     },
     LimitPlants = 150,
     ExpandLimit = 2,
