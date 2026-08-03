@@ -12,10 +12,10 @@ getgenv().GAG2 = {
     BuyGearMinSheckles = 500000,
     PlantSeeds = {
     ["Maple Carrot"] = 10, ["Maple Strawberry"] = 1, ["Maple Blueberry"] = 1, ["Maple Tulip"] = 200,
-    ["Maple Tomato"] = 0, ["Maple Apple"] = 0, ["Maple Bamboo"] = 200, ["Maple Corn"] = 0,
-    ["Maple Cactus"] = 0, ["Maple Pineapple"] = 0, ["Maple Mushroom"] = 200, ["Maple Green Bean"] = 0,
-    ["Maple Banana"] = 0, ["Maple Grape"] = 0, ["Maple Coconut"] = 0, ["Maple Mango"] = 0, ["Maple Rocket Pop"] = 200,
-    ["Maple Dragon Fruit"] = 0, ["Maple Acorn"] = 0, ["Maple Cherry"] = 10, ["Maple Sunflower"] = 10, ["Maple Fire Fern"] = 10,
+    ["Maple Tomato"] = 0, ["Maple Apple"] = 10, ["Maple Bamboo"] = 200, ["Maple Corn"] = 8,
+    ["Maple Cactus"] = 1, ["Maple Pineapple"] = 4, ["Maple Mushroom"] = 200, ["Maple Green Bean"] = 0,
+    ["Maple Banana"] = 2, ["Maple Grape"] = 3, ["Maple Coconut"] = 2, ["Maple Mango"] = 2, ["Maple Rocket Pop"] = 200,
+    ["Maple Dragon Fruit"] = 2, ["Maple Acorn"] = 0, ["Maple Cherry"] = 10, ["Maple Sunflower"] = 10, ["Maple Fire Fern"] = 10,
     ["Maple Gold"] = 9999, ["Maple Rainbow"] = 9999, ["Maple Venus Fly Trap"] = 10, ["Maple Pomegranate"] = 5, ["Maple Poison Apple"] = 5,
     ["Maple Venom Spitter"] = 5, ["Maple Moon Bloom"] = 3, ["Maple Hypno Bloom"] = 3, ["Maple Dragon's Breath"] = 0, ["Maple Sun Bloom"] = 0,
     ["Maple Star Fruit"] = 0, ["Atlantic Giant Pumpkin"] = 5, 
@@ -95,7 +95,7 @@ getgenv().GAG2 = {
      ["Wait plant reach target kilogram"] = {
         ["Atlantic Giant Pumpkin"] = 100,
     },
-    COLLECT_PLANT_IF_MUTATED = {"Atlantic Giant Pumpkin", "Conifer Cone", "Mushroom", "Mushroom", "Mushroom", "Rocket Pop", "Cherry", "Sunflower", "Fire Fern", "Venus Fly Trap", "Pomegranate", "Poison Apple", "Venom Spitter", "Moon Bloom", "Hypno Bloom", "Dragon's Breath", "Sun Bloom", "Star Fruit"},
+    COLLECT_PLANT_IF_MUTATED = {"Atlantic Giant Pumpkin", "Conifer Cone", "Maple Mushroom", "Rocket Pop", "Maple Cherry", " Maple Sunflower", " Maple Fire Fern", "Maple Venus Fly Trap", " Maple Pomegranate", " Maple Poison Apple", " Maple Venom Spitter", "Moon Bloom", "Hypno Bloom", "Dragon's Breath", "Sun Bloom", "Star Fruit"},
     SellFruitMultiplier = {
         ["Pomegranate"] = 2, ["Atlantic Giant Pumpkin"] = 2, ["Conifer Cone"] = 2, ["Venom Spitter"] = 2, ["Venus Fly Trap"] = 2, ["Dragon's Breath"] = 2, ["Hypno Bloom"] = 2, ["Moon Bloom"] = 2, ["Rocket Pop"] = 2, ["Mushroom"] = 2,
         ["Poison Apple"] = 2, ["Sunflower"] = 2, ["Fire Fern"] = 2,
