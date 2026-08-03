@@ -96,9 +96,9 @@ getgenv().GAG2 = {
         ["Atlantic Giant Pumpkin"] = 100,
     },
     COLLECT_PLANT_IF_MUTATED = {"Atlantic Giant Pumpkin", "Conifer Cone", "Maple Mushroom", "Rocket Pop", "Maple Cherry", " Maple Sunflower", " Maple Fire Fern", "Maple Venus Fly Trap", " Maple Pomegranate", " Maple Poison Apple", " Maple Venom Spitter", "Moon Bloom", "Hypno Bloom", "Dragon's Breath", "Sun Bloom", "Star Fruit"},
-    SellFruitMultiplier = {
-        ["Pomegranate"] = 2, ["Atlantic Giant Pumpkin"] = 2, ["Conifer Cone"] = 2, ["Venom Spitter"] = 2, ["Venus Fly Trap"] = 2, ["Dragon's Breath"] = 2, ["Hypno Bloom"] = 2, ["Moon Bloom"] = 2, ["Rocket Pop"] = 2, ["Mushroom"] = 2,
-        ["Poison Apple"] = 2, ["Sunflower"] = 2, ["Fire Fern"] = 2,
+     SellFruitMultiplier = {
+        ["Maple Pomegranate"] = 2, ["Atlantic Giant Pumpkin"] = 2, ["Conifer Cone"] = 2, ["Maple Venom Spitter"] = 2, ["Maple Venus Fly Trap"] = 2, ["Maple Dragon's Breath"] = 2, ["Maple Hypno Bloom"] = 2, ["Maple Moon Bloom"] = 2, ["Maple Rocket Pop"] = 2, ["Maple Mushroom"] = 2,
+        ["Maple Poison Apple"] = 2, ["Maple Sunflower"] = 2, ["Maple Fire Fern"] = 2,
     },
     BuyAuction = {
         ["Common Egg"] = 5000000,
