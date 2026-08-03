@@ -1,6 +1,6 @@
 -- GAG2 Config (загружается через GAG2 Loader, автообновление каждые 2 мин)
 getgenv().GAG2 = {
-    Fps = 5,
+    Fps = 10,
     MergeEclipseMoon = true,
     MailDelay = 150,
     World = "FallHarvest", -- or Main
