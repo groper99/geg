@@ -79,10 +79,9 @@ getgenv().GAG2 = {
         ["Squirrel"] = math.huge,
         ["Shadow Dragon"] = math.huge,
     },
-    EquipPets = {
-        ["Unicorn"] = {Priority = 1},
-        ["Golden Dragonfly"] = {Priority = 2},
-        ["Deer"] = {Priority = 3},
+       EquipPets = {
+        ["Swan"] = { Priority = 1, Amount = 3 },
+        ["Turkey"] = { Priority = 2, Amount = 3 },
     },
     SellPets = {
     },
