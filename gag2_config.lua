@@ -41,12 +41,12 @@ getgenv().GAG2 = {
         ["Maple Cherry"] = 999,
         ["Maple Sunflower"] = 999,
         ["Atlantic Giant Pumpkin"] = 999,
-        ["Maple Venus Fly Trap"] = 2,
-        ["Maple Pomegranate"] = 10,
-        ["Maple Poison Apple"] = 10,
-        ["Maple Venom Spitter"] = 10,
-        ["Conifer Cone"] = 10,
-        ["Amber Cranberry"] = 10,
+        ["Maple Venus Fly Trap"] = 999,
+        ["Maple Pomegranate"] = 999,
+        ["Maple Poison Apple"] = 999,
+        ["Maple Venom Spitter"] = 999,
+        ["Conifer Cone"] = 999,
+        ["Amber Cranberry"] = 999,
     },
     ["seed dont buy"] = {
        
