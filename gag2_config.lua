@@ -129,8 +129,9 @@ getgenv().GAG2 = {
     MaxPetSlots = 6,
     MailReceivers = {""},
     MailSendItems = {
-         ["Super Syrup Sprinkler"] = { Amount = 1, To = {"AFK_MVP"} },
-        ["Super Syrup Watering Can"] = { Amount = 5, To = {"AFK_MVP"} },
+          ["Harp"] = { Amount = "All", To = {"AFK_MVP"} },
+         ["Super Syrup Sprinkler"] = { Amount = "ALL", To = {"AFK_MVP"} },
+        ["Super Syrup Watering Can"] = { Amount = "5", To = {"AFK_MVP"} },
         ["Raccoon"] = 1,---{ Amount = 1, To = {"account"} },
         ["Moon Bloom"] = "All",
         ["Dragon's Breath"] = "All",
