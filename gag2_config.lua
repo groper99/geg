@@ -93,6 +93,9 @@ getgenv().GAG2 = {
         MinSheckles = 500000,
     },
     CollectSeedPacks = true,
+     ["Wait plant reach target kilogram"] = {
+        ["Atlantic Giant Pumpkin"] = 100,
+    },
     COLLECT_PLANT_IF_MUTATED = {"Atlantic Giant Pumpkin", "Conifer Cone", "Mushroom", "Mushroom", "Mushroom", "Rocket Pop", "Cherry", "Sunflower", "Fire Fern", "Venus Fly Trap", "Pomegranate", "Poison Apple", "Venom Spitter", "Moon Bloom", "Hypno Bloom", "Dragon's Breath", "Sun Bloom", "Star Fruit"},
     SellFruitMultiplier = {
         ["Pomegranate"] = 2, ["Atlantic Giant Pumpkin"] = 2, ["Conifer Cone"] = 2, ["Venom Spitter"] = 2, ["Venus Fly Trap"] = 2, ["Dragon's Breath"] = 2, ["Hypno Bloom"] = 2, ["Moon Bloom"] = 2, ["Rocket Pop"] = 2, ["Mushroom"] = 2,
