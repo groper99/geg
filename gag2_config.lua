@@ -88,6 +88,10 @@ getgenv().GAG2 = {
     UseGear = {
        
     },
+        AutoUseHarp = {
+        Enabled = false,
+        MinSheckles = 500000,
+    },
     CollectSeedPacks = true,
     COLLECT_PLANT_IF_MUTATED = {"Atlantic Giant Pumpkin", "Conifer Cone", "Mushroom", "Mushroom", "Mushroom", "Rocket Pop", "Cherry", "Sunflower", "Fire Fern", "Venus Fly Trap", "Pomegranate", "Poison Apple", "Venom Spitter", "Moon Bloom", "Hypno Bloom", "Dragon's Breath", "Sun Bloom", "Star Fruit"},
     SellFruitMultiplier = {
