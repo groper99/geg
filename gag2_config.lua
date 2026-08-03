@@ -18,7 +18,7 @@ getgenv().GAG2 = {
     ["Maple Dragon Fruit"] = 0, ["Maple Acorn"] = 0, ["Maple Cherry"] = 10, ["Maple Sunflower"] = 10, ["Maple Fire Fern"] = 10,
     ["Maple Gold"] = 9999, ["Maple Rainbow"] = 9999, ["Maple Venus Fly Trap"] = 10, ["Maple Pomegranate"] = 5, ["Maple Poison Apple"] = 5,
     ["Maple Venom Spitter"] = 5, ["Maple Moon Bloom"] = 3, ["Maple Hypno Bloom"] = 3, ["Maple Dragon's Breath"] = 0, ["Maple Sun Bloom"] = 0,
-    ["Maple Star Fruit"] = 0,
+    ["Maple Star Fruit"] = 0, "Atlantic Giant Pumpkin" = 5, 
 },
     SeedInventoryLimit = {
         ["Maple Carrot"] = 99999,
@@ -52,6 +52,8 @@ getgenv().GAG2 = {
         "Moon Bloom",
         "Hypno Bloom","Dragon's Breath",
     },
+ DONT_SHOVEL_PLANTS = {"Maple Bamboo", "Maple Cherry", "Maple Sunflower", "Maple Fire Fern", "Maple Venus Fly Trap", "Maple Pomegranate", "Maple Poison Apple", "Maple Venom Spitter", "Maple Moon Bloom", "Maple Hypno Bloom", "Maple Dragon's Breath"},
+    
     BuyPets = {
         ["Frog"] = { Big = 99, Huge = 99, Rainbow = 99 },
         ["Bunny"] = { Big = 99, Huge = 99, Rainbow = 99 },
