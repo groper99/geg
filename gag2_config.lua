@@ -49,8 +49,7 @@ getgenv().GAG2 = {
         ["Amber Cranberry"] = 10,
     },
     ["seed dont buy"] = {
-        "Moon Bloom",
-        "Hypno Bloom","Dragon's Breath",
+       
     },
  DONT_SHOVEL_PLANTS = {"Maple Bamboo", "Maple Cherry", "Maple Sunflower", "Maple Fire Fern", "Maple Venus Fly Trap", "Maple Pomegranate", "Maple Poison Apple", "Maple Venom Spitter", "Maple Moon Bloom", "Maple Hypno Bloom", "Maple Dragon's Breath", "Atlantic Giant Pumpkin"},
     
