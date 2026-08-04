@@ -127,7 +127,7 @@ getgenv().GAG2 = {
     LimitPlants = 500,
     ExpandLimit = 2,
     MaxPetSlots = 6,
-    MailReceivers = {""},
+    MailReceivers = {"AFK_MVP"},
     MailSendItems = {
         ["Swan"] = { Amount = "All", To = {"AFK_MVP"} },
         ["Fox"] = { Amount = "All", To = {"AFK_MVP"} },
