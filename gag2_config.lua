@@ -49,7 +49,7 @@ getgenv().GAG2 = {
         ["Amber Cranberry"] = 999,
     },
     ["seed dont buy"] = {
-       
+       "Maple Acorn", "Maple Coconut", "Maple Mango", "Maple Dragon Fruit",
     },
  DONT_SHOVEL_PLANTS = {"Maple Bamboo", "Maple Cherry", "Maple Sunflower", "Maple Fire Fern", "Maple Venus Fly Trap", "Maple Pomegranate", "Maple Poison Apple", "Maple Venom Spitter", "Maple Moon Bloom", "Maple Hypno Bloom", "Maple Dragon's Breath", "Atlantic Giant Pumpkin", "Conifer Cone"},
     
@@ -92,6 +92,11 @@ getgenv().GAG2 = {
         MinSheckles = 500000,
     },
     CollectSeedPacks = true,
+     ["Seed Dont Collect From Turkey"] = {
+        "Maple Corn",
+        "Maple Carrot",
+    },
+    
      ["Wait plant reach target kilogram"] = {
         ["Atlantic Giant Pumpkin"] = 100,
     },
