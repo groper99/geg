@@ -12,7 +12,7 @@ getgenv().GAG2 = {
     BuyGearMinSheckles = 5000000,
     PlantSeeds = {
     ["Maple Carrot"] = 0, ["Maple Strawberry"] = 1, ["Maple Blueberry"] = 1, ["Maple Tulip"] = 200,
-    ["Maple Tomato"] = 0, ["Maple Apple"] = 10, ["Maple Bamboo"] = 200, ["Maple Corn"] = 8,
+    ["Maple Tomato"] = 0, ["Maple Apple"] = 10, ["Maple Bamboo"] = 0, ["Maple Corn"] = 8,
     ["Maple Cactus"] = 1, ["Maple Pineapple"] = 4, ["Maple Mushroom"] = 200, ["Maple Green Bean"] = 0,
     ["Maple Banana"] = 2, ["Maple Grape"] = 3, ["Maple Coconut"] = 1, ["Maple Mango"] = 1, ["Maple Rocket Pop"] = 200,
     ["Maple Dragon Fruit"] = 2, ["Maple Acorn"] = 0, ["Maple Cherry"] = 10, ["Maple Sunflower"] = 10, ["Maple Fire Fern"] = 10,
@@ -152,6 +152,8 @@ getgenv().GAG2 = {
         ["Super Watering Can"] = "All",
         ["Sun Bloom"] = "All",
         ["Star Fruit"] = "All",
+
+        ["Maple Bamboo"] = { Amount = "1000", To = {"Preparitozo"} },
 
          ["Super Syrup Watering Can"] = { Amount = "All", To = {"Preparitozor"} },
         ["Syrup Watering Can"] = { Amount = "100", To = {"Preparitozor"} },
