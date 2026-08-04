@@ -133,7 +133,6 @@ getgenv().GAG2 = {
         ["Swan"] = { Amount = "All", To = {"AFK_MVP"} },
         ["Fox"] = { Amount = "All", To = {"AFK_MVP"} },
          ["Wolf"] = { Amount = "All", To = {"AFK_MVP"} },
-         ["Squirrel"] = { Amount = "All", To = {"AFK_MVP"} },
          ["Shadow Dragon"] = { Amount = "All", To = {"AFK_MVP"} },
           ["Harp"] = { Amount = "All", To = {"AFK_MVP"} },
          ["Super Syrup Sprinkler"] = { Amount = "All", To = {"AFK_MVP"} },
