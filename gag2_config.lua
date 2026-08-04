@@ -91,6 +91,7 @@ getgenv().GAG2 = {
         Enabled = false,
         MinSheckles = 500000,
     },
+    AutoUseCornucopia = true,
     CollectSeedPacks = true,
      ["Seed Dont Collect From Turkey"] = {
         "Maple Corn",
