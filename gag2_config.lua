@@ -18,7 +18,7 @@ getgenv().GAG2 = {
     ["Maple Dragon Fruit"] = 2, ["Maple Acorn"] = 0, ["Maple Cherry"] = 10, ["Maple Sunflower"] = 10, ["Maple Fire Fern"] = 10,
     ["Maple Gold"] = 9999, ["Maple Rainbow"] = 9999, ["Maple Venus Fly Trap"] = 10, ["Maple Pomegranate"] = 5, ["Maple Poison Apple"] = 5,
     ["Maple Venom Spitter"] = 5, ["Maple Moon Bloom"] = 3, ["Maple Hypno Bloom"] = 3, ["Maple Dragon's Breath"] = 0, ["Maple Sun Bloom"] = 0,
-    ["Maple Star Fruit"] = 0, ["Atlantic Giant Pumpkin"] = 0, 
+    ["Maple Star Fruit"] = 0, ["Atlantic Giant Pumpkin"] = 3, 
 },
     SeedInventoryLimit = {
         ["Maple Carrot"] = 99999,
