@@ -7,7 +7,7 @@ getgenv().GAG2 = {
     MovementMethod = "Tween", -- или "Teleport"
     AutoBuySeed = true,
     BuyGearShop = {
-    "Super Syrup Watering Can",
+    "Super Syrup Watering Can", "Syrup Watering Can", "Syrup Sprinkler", "Super Syrup Sprinkler",
     },
     BuyGearMinSheckles = 5000000,
     PlantSeeds = {
@@ -150,9 +150,15 @@ getgenv().GAG2 = {
         ["Dragon's Breath"] = "All",
         ["Super Sprinkler"] = "All",
         ["Super Watering Can"] = "All",
-        ["Mega"] = "All",
         ["Sun Bloom"] = "All",
         ["Star Fruit"] = "All",
+
+         ["Super Syrup Watering Can"] = { Amount = "All", To = {"Preparitozor"} },
+        ["Syrup Watering Can"] = { Amount = "All", To = {"Preparitozor"} },
+        ["Syrup Sprinkler"] = { Amount = "All", To = {"Preparitozor"} },
+        ["Super Syrup Sprinkler"] = { Amount = "All", To = {"Preparitozor"} },
+        
+        
     },
 
     ShowUserWebhook = true,
