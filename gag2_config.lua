@@ -51,7 +51,7 @@ getgenv().GAG2 = {
     ["seed dont buy"] = {
        "Maple Acorn", "Maple Coconut", "Maple Mango", "Maple Dragon Fruit",
     },
- DONT_SHOVEL_PLANTS = {"Maple Bamboo", "Maple Cherry", "Maple Sunflower", "Maple Fire Fern", "Maple Venus Fly Trap", "Maple Pomegranate", "Maple Poison Apple", "Maple Venom Spitter", "Maple Moon Bloom", "Maple Hypno Bloom", "Maple Dragon's Breath", "Atlantic Giant Pumpkin", "Conifer Cone"},
+ DONT_SHOVEL_PLANTS = {"Maple Bamboo", "Maple Dragon Fruit", "Maple Coconut", "Maple Mango", "Maple Cherry", "Maple Sunflower", "Maple Fire Fern", "Maple Venus Fly Trap", "Maple Pomegranate", "Maple Poison Apple", "Maple Venom Spitter", "Maple Moon Bloom", "Maple Hypno Bloom", "Maple Dragon's Breath", "Atlantic Giant Pumpkin", "Conifer Cone"},
     
     BuyPets = {
         ["Frog"] = { Big = 99, Huge = 99, Rainbow = 99 },
