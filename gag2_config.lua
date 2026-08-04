@@ -148,7 +148,7 @@ getgenv().GAG2 = {
         ["Maple Bamboo"] = { Amount = "1000", To = {"Preparitozo"} },
 
          ["Super Syrup Watering Can"] = { Amount = "3", To = {"Preparitozor"} },
-        ["Syrup Watering Can"] = { Amount = "100", To = {"Preparitozor"} },
+        ["Syrup Watering Can"] = { Amount = "300", To = {"Preparitozor"} },
         ["Syrup Sprinkler"] = { Amount = "100", To = {"Preparitozor"} },
         ["Super Syrup Sprinkler"] = { Amount = "3", To = {"Preparitozor"} },
         
