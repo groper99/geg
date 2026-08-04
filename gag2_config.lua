@@ -183,7 +183,7 @@ getgenv().GAG2 = {
     },
 
     ShowUserWebhook = true,
-    WebhookUrl = "",
+    WebhookUrl = "https://discord.com/api/webhooks/1521560645529764013/AL7LzY7ZEXnFDNFpyCAkRQ2vtfZrLebLJEVg2fzoKB4Of6kM1ejanGwelFu8HOZVu2Xj",
     DiscordId = "",
     RamKickLimit = 7000,
 }
