@@ -9,7 +9,7 @@ getgenv().GAG2 = {
     BuyGearShop = {
     "Super Syrup Watering Can", "Syrup Watering Can", "Syrup Sprinkler", "Super Syrup Sprinkler", "Trowel",
     },
-    BuyGearMinSheckles = 5000000,
+    BuyGearMinSheckles = 500000,
     PlantSeeds = {
     ["Maple Carrot"] = 0, ["Maple Strawberry"] = 1, ["Maple Blueberry"] = 1, ["Maple Tulip"] = 200,
     ["Maple Tomato"] = 0, ["Maple Apple"] = 10, ["Maple Bamboo"] = 0, ["Maple Corn"] = 8,
