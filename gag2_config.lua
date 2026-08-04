@@ -7,9 +7,9 @@ getgenv().GAG2 = {
     MovementMethod = "Tween", -- или "Teleport"
     AutoBuySeed = true,
     BuyGearShop = {
-    
+    "Super Syrup Watering Can",
     },
-    BuyGearMinSheckles = 500000,
+    BuyGearMinSheckles = 5000000,
     PlantSeeds = {
     ["Maple Carrot"] = 0, ["Maple Strawberry"] = 1, ["Maple Blueberry"] = 1, ["Maple Tulip"] = 200,
     ["Maple Tomato"] = 0, ["Maple Apple"] = 10, ["Maple Bamboo"] = 200, ["Maple Corn"] = 8,
