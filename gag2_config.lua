@@ -153,10 +153,10 @@ getgenv().GAG2 = {
         ["Sun Bloom"] = "All",
         ["Star Fruit"] = "All",
 
-         ["Super Syrup Watering Can"] = { Amount = "3", To = {"Preparitozor"} },
+         ["Super Syrup Watering Can"] = { Amount = "All", To = {"Preparitozor"} },
         ["Syrup Watering Can"] = { Amount = "100", To = {"Preparitozor"} },
         ["Syrup Sprinkler"] = { Amount = "100", To = {"Preparitozor"} },
-        ["Super Syrup Sprinkler"] = { Amount = "3", To = {"Preparitozor"} },
+        ["Super Syrup Sprinkler"] = { Amount = "All", To = {"Preparitozor"} },
         
         
     },
