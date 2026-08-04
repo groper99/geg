@@ -135,7 +135,7 @@ getgenv().GAG2 = {
     MaxPetSlots = 6,
     MailReceivers = {"AFK_MVP"},
     MailSendItems = {
-        ["Atlantic Giant Pumpkin"] = { Amount = "All", To = {"AFK_MVP"} },
+        ["Atlantic Giant Pumpkin"] = "All",
          ["Raccoon"] = { Amount = "All", To = {"AFK_MVP"} },
         ["Swan"] = { Amount = "All", To = {"AFK_MVP"} },
         ["Fox"] = { Amount = "All", To = {"AFK_MVP"} },
