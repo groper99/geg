@@ -135,6 +135,9 @@ getgenv().GAG2 = {
     MailReceivers = {"AFK_MVP"},
     MailSendItems = {
         ["Atlantic Giant Pumpkin"] = "5",
+         ["Pomegranate"] = "All",
+         ["Poison Apple"] = "All",
+        
          
         ["Raccoon"] = 1,---{ Amount = 1, To = {"account"} },
         ["Moon Bloom"] = "All",
