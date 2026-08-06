@@ -139,6 +139,8 @@ getgenv().GAG2 = {
          ["Maple Poison Apple"] = "All",
         ["Maple Venus Fly Trap"] = "All",
          ["Maple Venom Spitter"] = "All",
+
+         ["Maple Mushroom"] = { Amount = "30", To = {"4skladd"} },
         
          
         ["Raccoon"] = 1,---{ Amount = 1, To = {"account"} },
