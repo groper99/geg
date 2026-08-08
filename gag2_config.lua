@@ -166,7 +166,9 @@ getgenv().GAG2 = {
         ["Syrup Watering Can"] = { Amount = "1000", To = {"Preparitozor"} },
         ["Syrup Sprinkler"] = { Amount = "100", To = {"Preparitozor"} },
         ["Super Syrup Sprinkler"] = { Amount = "2", To = {"Preparitozor"} },
-        
+
+ ["Red Fox"] = { Amount = "All", To = {"AFK_MVP"} },
+ ["Kitsune"] = { Amount = "All", To = {"AFK_MVP"} },
 ["Swan"] = { Amount = "All", To = {"AFK_MVP"} },
 ["Fox"] = { Amount = "All", To = {"AFK_MVP"} },
 ["Wolf"] = { Amount = "All", To = {"AFK_MVP"} },
