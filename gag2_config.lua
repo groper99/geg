@@ -76,6 +76,8 @@ getgenv().GAG2 = {
         ["Fox"] = { Big = 99, Huge = 99, Rainbow = 99 },
         ["Wolf"] = { Big = 99, Huge = 99, Rainbow = 99 },
         ["Shadow Dragon"] = math.huge,
+        ["Red Fox"] = math.huge,
+        ["Kitsune"] = math.huge,
     },
        EquipPets = {
         ["Swan"] = { Priority = 1, Amount = 3 },
