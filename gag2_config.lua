@@ -135,6 +135,7 @@ getgenv().GAG2 = {
     MaxPetSlots = 6,
     MailReceivers = {"AFK_MVP"},
     MailSendItems = {
+        ["Common Egg"] = "All",
         ["Atlantic Giant Pumpkin"] = "2",
          ["Maple Pomegranate"] = "All",
          ["Maple Poison Apple"] = "All",
