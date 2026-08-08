@@ -155,7 +155,7 @@ getgenv().GAG2 = {
 
         ["Maple Bamboo"] = { Amount = "2000", To = {"4skladd"} },
 
-           ["Maple Mushroom"] = { Amount = "110", To = {"Gragufinicuz_2"} },
+           ["Maple Mushroom"] = { Amount = "All", To = {"Gragufinicuz_2"} },
 
          ["Trowel"] = { Amount = "500", To = {"Gragufinicuz_1"} },
 
