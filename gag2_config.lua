@@ -106,6 +106,7 @@ getgenv().GAG2 = {
         ["Maple Poison Apple"] = 2, ["Maple Sunflower"] = 2, ["Maple Fire Fern"] = 2,
     },
     BuyAuction = {
+        ["Atlantic Giant Pumpkin"] = 5000000,
         ["Common Egg"] = 5000000,
         ["Sun Bloom"] = 150000000,
         ["Star Fruit"] = 500000000,
