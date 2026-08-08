@@ -135,62 +135,7 @@ getgenv().GAG2 = {
     MaxPetSlots = 6,
     MailReceivers = {"AFK_MVP"},
     MailSendItems = {
-        ["Common Egg"] = "All",
-        ["Atlantic Giant Pumpkin"] = "2",
-         ["Maple Pomegranate"] = "All",
-         ["Maple Poison Apple"] = "All",
-        ["Maple Venus Fly Trap"] = "All",
-         ["Maple Venom Spitter"] = "All",
-
-         ["Maple Mushroom"] = { Amount = "30", To = {"4skladd"} },
-        
-         
-        ["Raccoon"] = 1,---{ Amount = 1, To = {"account"} },
-        ["Moon Bloom"] = "All",
-        ["Dragon's Breath"] = "All",
-        ["Super Sprinkler"] = "All",
-        ["Super Watering Can"] = "All",
-        ["Sun Bloom"] = "All",
-        ["Star Fruit"] = "All",
-
-        ["Maple Bamboo"] = { Amount = "2000", To = {"4skladd"} },
-
-           ["Maple Mushroom"] = { Amount = "All", To = {"Gragufinicuz_2"} },
-
-         ["Trowel"] = { Amount = "500", To = {"Gragufinicuz_1"} },
-
-    
-         ["Super Syrup Watering Can"] = { Amount = "3", To = {"Preparitozor"} },
-        ["Syrup Watering Can"] = { Amount = "1000", To = {"Preparitozor"} },
-        ["Syrup Sprinkler"] = { Amount = "100", To = {"Preparitozor"} },
-        ["Super Syrup Sprinkler"] = { Amount = "2", To = {"Preparitozor"} },
-        
-["Swan"] = { Amount = "All", To = {"AFK_MVP"} },
-["Fox"] = { Amount = "All", To = {"AFK_MVP"} },
-["Wolf"] = { Amount = "All", To = {"AFK_MVP"} },
-["Raccoon"] = { Amount = "All", To = {"AFK_MVP"} },
-["Shadow Dragon"] = { Amount = "All", To = {"AFK_MVP"} },       
-["Big Dog"] = { Amount = "All", To = {"AFK_MVP"} },
-["Huge Dog"] = { Amount = "All", To = {"AFK_MVP"} },
-["Rainbow Dog"] = { Amount = "All", To = {"AFK_MVP"} },
-["Big Turkey"] = { Amount = "All", To = {"AFK_MVP"} },
-["Huge Turkey"] = { Amount = "All", To = {"AFK_MVP"} },
-["Rainbow Turkey"] = { Amount = "All", To = {"AFK_MVP"} },
-["Big Squirrel"] = { Amount = "All", To = {"AFK_MVP"} },
-["Huge Squirrel"] = { Amount = "All", To = {"AFK_MVP"} },
-["Rainbow Squirrel"] = { Amount = "All", To = {"AFK_MVP"} },
-["Big Hedgehog"] = { Amount = "All", To = {"AFK_MVP"} },
-["Huge Hedgehog"] = { Amount = "All", To = {"AFK_MVP"} },
-["Rainbow Hedgehog"] = { Amount = "All", To = {"AFK_MVP"} },
-["Big Swan"] = { Amount = "All", To = {"AFK_MVP"} },
-["Huge Swan"] = { Amount = "All", To = {"AFK_MVP"} },
-["Rainbow Swan"] = { Amount = "All", To = {"AFK_MVP"} },
-["Big Fox"] = { Amount = "All", To = {"AFK_MVP"} },
-["Huge Fox"] = { Amount = "All", To = {"AFK_MVP"} },
-["Rainbow Fox"] = { Amount = "All", To = {"AFK_MVP"} },
-["Big Wolf"] = { Amount = "All", To = {"AFK_MVP"} },
-["Huge Wolf"] = { Amount = "All", To = {"AFK_MVP"} },
-["Rainbow Wolf"] = { Amount = "All", To = {"AFK_MVP"} },
+  ["Maple Mushroom"] = { Amount = "All", To = {"Gragufinicuz_2"} },
         
         
     },
