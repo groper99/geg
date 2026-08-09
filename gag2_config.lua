@@ -144,7 +144,7 @@ getgenv().GAG2 = {
         ["Maple Venus Fly Trap"] = "All",
          ["Maple Venom Spitter"] = "All",
 
-         ["Maple Mushroom"] = { Amount = "30", To = {"4skladd"} },
+        
        ["Maple Carrot"] = { Amount = "4500", To = {"4skladd"} },
         
          
@@ -158,7 +158,8 @@ getgenv().GAG2 = {
 
         ["Maple Bamboo"] = { Amount = "2000", To = {"4skladd"} },
 
-        ["Maple Sunflower"] = { Amount = "5", To = {"Gragufinicuz_2"} },
+        ["Maple Sunflower"] = { Amount = "4", To = {"Gragufinicuz_2"} },
+         ["Maple Mushroom"] = { Amount = "30", To = {"Gragufinicuz_2"} },
          
 
          ["Trowel"] = { Amount = "500", To = {"Gragufinicuz_1"} },
