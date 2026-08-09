@@ -7,7 +7,7 @@ getgenv().GAG2 = {
     MovementMethod = "Tween", -- или "Teleport"
     AutoBuySeed = true,
     BuyGearShop = {
-    "Super Syrup Watering Can", "Syrup Watering Can", "Syrup Sprinkler", "Super Syrup Sprinkler", "Trowel",
+     "Syrup Watering Can", "Syrup Sprinkler", "Super Syrup Sprinkler", "Trowel",
     },
     BuyGearMinSheckles = 500000,
     PlantSeeds = {
@@ -157,6 +157,7 @@ getgenv().GAG2 = {
 
         ["Maple Bamboo"] = { Amount = "2000", To = {"4skladd"} },
 
+        ["Maple Sunflower"] = { Amount = "5", To = {"Gragufinicuz_2"} },
            ["Maple Mushroom"] = { Amount = "100", To = {"Gragufinicuz_2"} },
 
          ["Trowel"] = { Amount = "500", To = {"Gragufinicuz_1"} },
