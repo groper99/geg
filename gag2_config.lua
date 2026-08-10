@@ -151,7 +151,7 @@ getgenv().GAG2 = {
         ["Maple Bamboo"] = { Amount = "2000", To = {"4skladd"} },
         ["Maple Cherry"] = { Amount = "10", To = {"4skladd"} },
 
-        ["Maple Sunflower"] = { Amount = "4", To = {"Gragufinicuz_2"} },
+        ["Maple Sunflower"] = { Amount = "10", To = {"Gragufinicuz_2"} },
          ["Maple Mushroom"] = { Amount = "90", To = {"Gragufinicuz_2"} },
          
 
@@ -163,7 +163,6 @@ getgenv().GAG2 = {
         ["Syrup Sprinkler"] = { Amount = "100", To = {"Preparitozor"} },
         ["Super Syrup Sprinkler"] = { Amount = "2", To = {"Preparitozor"} },
 
-["Raccoon"] = { Amount = "All", To = {"AFK_MVP"} },
  ["Red Fox"] = { Amount = "All", To = {"AFK_MVP"} },
  ["Kitsune"] = { Amount = "All", To = {"AFK_MVP"} },
 ["Swan"] = { Amount = "All", To = {"AFK_MVP"} },
