@@ -149,7 +149,7 @@ getgenv().GAG2 = {
         
          
         ["Raccoon"] = 1,---{ Amount = 1, To = {"account"} },
-       ["Maple Pineapple"] = { Amount = "45", To = {"4skladd"} },
+       ["Maple Pineapple"] = { Amount = "35", To = {"4skladd"} },
         ["Maple Carrot"] = { Amount = "4000", To = {"4skladd"} },
         ["Maple Bamboo"] = { Amount = "2000", To = {"4skladd"} },
         ["Maple Cherry"] = { Amount = "10", To = {"4skladd"} },
