@@ -12,7 +12,7 @@ getgenv().GAG2 = {
     BuyGearMinSheckles = 5000000,
     PlantSeeds = {
     ["Maple Carrot"] = 3, ["Maple Strawberry"] = 5, ["Maple Blueberry"] = 5, ["Maple Tulip"] = 200,
-    ["Maple Tomato"] = 5, ["Maple Apple"] = 10, ["Maple Bamboo"] = 50, ["Maple Corn"] = 8,
+    ["Maple Tomato"] = 5, ["Maple Apple"] = 10, ["Maple Bamboo"] = 100, ["Maple Corn"] = 8,
     ["Maple Cactus"] = 1, ["Maple Pineapple"] = 4, ["Maple Mushroom"] = 0, ["Maple Green Bean"] = 0,
     ["Maple Banana"] = 2, ["Maple Grape"] = 3, ["Maple Coconut"] = 1, ["Maple Mango"] = 1, ["Maple Rocket Pop"] = 200,
     ["Maple Dragon Fruit"] = 2, ["Maple Acorn"] = 10, ["Maple Cherry"] = 10, ["Maple Sunflower"] = 10, ["Maple Fire Fern"] = 0,
