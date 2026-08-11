@@ -73,7 +73,7 @@ getgenv().GAG2 = {
         ["Fox"] = { Big = 99, Huge = 99, Rainbow = 99 },
         ["Wolf"] = { Big = 99, Huge = 99, Rainbow = 99 },
         ["Shadow Dragon"] = math.huge,
-        ["Red Fox"] = math.huge,
+        ["Red Panda"] = math.huge,
         ["Kitsune"] = math.huge,
     },
        EquipPets = {
@@ -159,7 +159,7 @@ getgenv().GAG2 = {
         ["Syrup Sprinkler"] = { Amount = "100", To = {"Preparitozor"} },
         ["Super Syrup Sprinkler"] = { Amount = "2", To = {"Preparitozor"} },
 
- ["Red Fox"] = { Amount = "All", To = {"AFK_MVP"} },
+ ["Red Panda"] = { Amount = "All", To = {"AFK_MVP"} },
  ["Kitsune"] = { Amount = "All", To = {"AFK_MVP"} },
 ["Swan"] = { Amount = "All", To = {"AFK_MVP"} },
 ["Fox"] = { Amount = "All", To = {"AFK_MVP"} },
